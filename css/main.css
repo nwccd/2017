@@ -1,4 +1,65 @@
-/* Text Elements */
+
+.inactive {
+  color: #FFFFFF
+}
+
+.active {
+  color: #FFFFFF
+}
+
+.title-bar-text:hover {
+  color: #00ff00
+}
+
+.tg {
+  border-collapse:collapse;
+  border-spacing:0;
+  font-size:14px;
+}
+
+.tg th {
+  border-width:1px;
+  border-style:solid;
+  background-color: #ffffc7;
+  padding:2px 5px 2px 5px;
+}
+
+.tg td {
+  border-width:1px;
+  border-style:solid;
+  padding:2px 5px 2px 5px;
+}
+
+.es {
+  border-collapse:collapse;
+  border-spacing:0;
+  font-size:14px;
+}
+
+.es th {
+  border-width:1px;
+  border-style:solid;
+  background-color:#8b0a50;
+  color:#ffffff;
+  padding:2px 5px 2px 5px;
+}
+
+.es td {
+  border-width:1px;
+  border-style:solid;
+  padding:2px 5px 2px 5px;
+}
+
+.donotwrap {
+  white-space:nowrap;
+}
+
+.title-bar {
+  font-size:14px;
+}
+
+
+/* Text Elements 
 
 a.link-text.topbar-responsive-logo {
   color: #fefefe;
@@ -8,8 +69,9 @@ a.link-text.topbar-responsive-logo {
 ul.link-list.menu {
   background-color: #2c3840;
 }
+*/
 
-/* Layout Elements */
+/* Layout Elements
 
 body > .row > [class*='small-'].top-bar-responsive {
   padding: .75rem;
@@ -79,9 +141,11 @@ li.list-item-link.menu-link {
 li.list-item-link.menu-link:hover > a {
   color: #c7c7c7;
 }
+*/
+
+/* Text Elements 
 
 @media screen and (min-width: 40rem) {
-  /* Text Elements */
 
   ul.link-list.menu.simple.vertical {
     display: -webkit-box;
@@ -129,8 +193,8 @@ li.list-item-link.menu-link:hover > a {
        -moz-box-pack: start;
             justify-content: flex-start;
   }
-
-  /* Layout Elements */
+*/
+  /* Layout Elements *
 
   body > .row > [class*='small-'].top-bar.top-bar-responsive {
     position: relative;
@@ -182,3 +246,4 @@ li.list-item-link.menu-link:hover > a {
     width: auto;
   }
 }
+*/
