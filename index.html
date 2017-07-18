@@ -12,38 +12,32 @@
 <body class="no-js">
   <div class="row">
     <div class="columns small-12">
-	  <div class="top-bar">
-        <div class="top-bar-left">
-          <ul class="dropdown menu" data-dropdown-menu>
-            <li><a href="#">NWCCD 2017</a>
-              <ul class="menu vertical submenu">
-                <li><a href="#">Schedule</a></li>
-				  <ul class="menu vertical submenu nested">
-				    <li><a href="#">Saturday</a></li>
-				    <li><a href="#">Sunday</a></li>
-				    <li><a href="#">Monday</a></li>
-				    <li><a href="#">Tuesday</a></li>
-				    <li><a href="#">Wednesday</a></li>
-				    <li><a href="#">Thursday</a></li>
-				    <li><a href="#">Friday</a></li>
-				  </ul>
-                <li><a href="#">Memory Verses</a></li>
-                <li><a href="#">Cabins</a></li>
-                <li><a href="#">Staff</a></li>
-              </ul>
-            </li>
-          </ul>
+      <div class="title-bar" data-responsive-toggle="nwccd-menu" data-hide-for="very large">
+        <div class="title-bar-left">
+          <button class="menu-icon" type="button" data-toggle></button>
+          <div class="title-bar-title">NWCCD 2017 -- Monday</div>
         </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><input type="search" placeholder="Search"></li>
-            <li><button type="button" class="button">Search</button></li>
+      </div>
+      
+      <div class="title-bar" id="nwccd-menu">
+        <div class="title-bar-left">
+          <ul class="dropdown vertical horizontal menu" data-dropdown-menu>
+			<li><a class="title-bar-text inactive" href="saturday.html">Saturday</a></li>
+			<li><a class="title-bar-text inactive" href="sunday.html">Sunday</a></li>
+			<li><a class="title-bar-text inactive" href="monday.html">Monday</a></li>
+			<li><a class="title-bar-text inactive" href="tuesday.html">Tuesday</a></li>
+			<li><a class="title-bar-text inactive" href="wednesday.html">Wednesday</a></li>
+			<li><a class="title-bar-text inactive" href="thursday.html">Thursday</a></li>
+			<li><a class="title-bar-text inactive" href="friday.html">Friday</a></li>
+			<li><a class="title-bar-text inactive" href="bible.html">Bible Verses</a></li>
+			<li><a class="title-bar-text inactive" href="campers.html">Campers</a></li>
+			<li><a class="title-bar-text inactive" href="staff.html">Staff</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
-
+  
   <script src="js/jquery.min.js"></script>
   <script src="js/what-input.min.js"></script>
   <script src="js/foundation.min.js"></script>
