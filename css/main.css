@@ -5,8 +5,12 @@
 
 .menu .active > a { background: #FFFFFF; color: #FFFFFF; }
 
+.active { color: #FFFFFF }
+
+.inactive { color: #FFFFFF }
+
 .title-bar-text:hover {
-  color: #00ff00
+  color: #FFFFFF
 }
 
 .tg {
