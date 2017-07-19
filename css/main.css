@@ -1,7 +1,11 @@
 
-.is-drilldown-submenu {
-	background: #000000
-}
+.is-drilldown-submenu { background: #000000 }
+
+.accordion { background: #000000; }
+
+.accordion-title { color: #FFFFFF; }
+.accordion-title:hover, .accordion-title:focus { background-color: #000000; }
+.accordion-content { background-color: #000000; color: #FFFFFF; }
 
 .menu .active > a { background: #FFFFFF; color: #FFFFFF; }
 
@@ -9,9 +13,7 @@
 
 .inactive { color: #FFFFFF }
 
-.title-bar-text:hover {
-  color: #FFFFFF
-}
+.title-bar-text:hover { color: #FFFFFF }
 
 .tg {
   border-collapse:collapse;
