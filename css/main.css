@@ -3,13 +3,7 @@
 	background: #000000
 }
 
-.inactive {
-  color: #FFFFFF
-}
-
-.active {
-  color: #FFFFFF
-}
+.menu .active > a { background: #FFFFFF; color: #FFFFFF; }
 
 .title-bar-text:hover {
   color: #00ff00
