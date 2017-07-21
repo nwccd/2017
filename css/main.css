@@ -61,6 +61,9 @@
 .highlight {
 	 background-color:black;
 	 color:white;
+	 font-weight:bold;
+	 border:thick;
+	 border-color:black;
 }
 
 .tr cabinschedule {
