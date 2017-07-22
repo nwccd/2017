@@ -1,4 +1,16 @@
 ﻿
+.escabin {
+	background-color:aqua;
+}
+
+.mscabin {
+	background-color:lime;
+}
+
+.hscabin {
+	background-color:gray;
+}
+
 .is-drilldown-submenu { background: #000000 }
 
 .accordion { background: #000000; }
