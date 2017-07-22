@@ -1,14 +1,28 @@
 ﻿
-.tg th escabin {
+.highlight {
+	 background-color:black;
+	 color:white;
+	 font-weight:bold;
+	 border:thick;
+	 border-color:black;
+}
+
+.escabin {
 	background-color:aqua;
+	color:black;
+	font-weight:bold;
 }
 
-.tg th mscabin {
+.mscabin {
 	background-color:lime;
+	color:black;
+	font-weight:bold;
 }
 
-.tg th hscabin {
+.hscabin {
 	background-color:gray;
+	color:black;
+	font-weight:bold;
 }
 
 .is-drilldown-submenu { background: #000000 }
